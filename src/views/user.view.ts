@@ -9,7 +9,7 @@
 
 import type { UserModel } from "../models/user.model";
 
-const userView = (users: UserModel[]) => `
+export const userView = (users: UserModel[]) => `
 <!DOCTYPE html>
 <html>
 <head>
